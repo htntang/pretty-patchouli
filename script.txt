@@ -10,6 +10,7 @@ Both projects will be built with Next.JS
 
 For [ecommerce-admin], I will use Tailwind CSS; but in [ecommerce-frontend], I will use components so that I can re-use them.
 
+https://www.npmjs.com/package/create-next-app
 I start my project with the following command:
 *npx create-next-app@latest
 
@@ -20,6 +21,20 @@ I run *npm run dev to launch my app.
 
 Command Line:
 *npm install -D tailwindcss postcss autoprefixer
+https://nextjs.org/docs/app/building-your-application/styling/tailwind-css
+
+Go into the tailwind.config.js file and replace as needed.
+Go into the globals.css file and replace as needed.
+
+Replace the layout section with the text. Test it out.
+
+https://next-auth.js.org/getting-started/example
+*npm install next-auth
+
+^Follow documentation as needed.
+
+ATTACH GOOGLE AS PROVIDER
+https://next-auth.js.org/providers/google
 
 
 
