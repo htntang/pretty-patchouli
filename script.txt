@@ -1,0 +1,26 @@
+We are building an e-commerce store and this will be actually two projects because when we are going to build an e-commerce store, we need products, so an admin panel is necessary.
+
+So two folders will be created:
+[ecommerce-frontend]: The interface wherein the users will interact with the with the site.
+[ecommerce-admin]: Where CRUD operations can take place.
+
+We are going to start with the [ecommerce-admin] project. Because we need products to put onto the ecommerce frontend.
+
+Both projects will be built with Next.JS
+
+For [ecommerce-admin], I will use Tailwind CSS; but in [ecommerce-frontend], I will use components so that I can re-use them.
+
+I start my project with the following command:
+*npx create-next-app@latest
+
+Select "no src" when the options arise. 
+Select "yes" to eslint.
+
+I run *npm run dev to launch my app.
+
+Command Line:
+*npm install -D tailwindcss postcss autoprefixer
+
+
+
+
